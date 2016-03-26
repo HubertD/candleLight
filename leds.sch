@@ -1,0 +1,163 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:can_transceivers
+LIBS:sub-d9
+LIBS:micro-usb-ab
+LIBS:con_swd
+LIBS:candleLight-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED D601
+U 1 1 56F5F775
+P 5900 3650
+F 0 "D601" H 5900 3750 50  0000 C CNN
+F 1 "LED" H 5900 3550 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 5900 3650 50  0001 C CNN
+F 3 "" H 5900 3650 50  0000 C CNN
+	1    5900 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D602
+U 1 1 56F5F923
+P 5900 4000
+F 0 "D602" H 5900 4100 50  0000 C CNN
+F 1 "LED" H 5900 3900 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 5900 4000 50  0001 C CNN
+F 3 "" H 5900 4000 50  0000 C CNN
+	1    5900 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D603
+U 1 1 56F5F971
+P 5900 4350
+F 0 "D603" H 5900 4450 50  0000 C CNN
+F 1 "LED" H 5900 4250 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 5900 4350 50  0001 C CNN
+F 3 "" H 5900 4350 50  0000 C CNN
+	1    5900 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3V3 #PWR036
+U 1 1 56F5F9AC
+P 5150 3550
+F 0 "#PWR036" H 5150 3400 50  0001 C CNN
+F 1 "+3V3" H 5150 3690 50  0000 C CNN
+F 2 "" H 5150 3550 50  0000 C CNN
+F 3 "" H 5150 3550 50  0000 C CNN
+	1    5150 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3550 5150 4350
+Connection ~ 5150 3650
+Connection ~ 5150 4000
+$Comp
+L GND #PWR037
+U 1 1 56F5F9E1
+P 6200 4500
+F 0 "#PWR037" H 6200 4250 50  0001 C CNN
+F 1 "GND" H 6200 4350 50  0000 C CNN
+F 2 "" H 6200 4500 50  0000 C CNN
+F 3 "" H 6200 4500 50  0000 C CNN
+	1    6200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4350 6200 4350
+Wire Wire Line
+	6200 4350 6200 4500
+Text HLabel 6100 4000 2    60   Input ~ 0
+LED2
+Text HLabel 6100 3650 2    60   Input ~ 0
+LED1
+$Comp
+L R R601
+U 1 1 56F67521
+P 5450 3650
+F 0 "R601" V 5530 3650 50  0000 C CNN
+F 1 "1K" V 5450 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5380 3650 50  0001 C CNN
+F 3 "" H 5450 3650 50  0000 C CNN
+	1    5450 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R602
+U 1 1 56F67576
+P 5450 4000
+F 0 "R602" V 5530 4000 50  0000 C CNN
+F 1 "1K" V 5450 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5380 4000 50  0001 C CNN
+F 3 "" H 5450 4000 50  0000 C CNN
+	1    5450 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 3650 5300 3650
+Wire Wire Line
+	5150 4000 5300 4000
+Wire Wire Line
+	5600 3650 5700 3650
+Wire Wire Line
+	5600 4000 5700 4000
+$Comp
+L R R603
+U 1 1 56F67763
+P 5450 4350
+F 0 "R603" V 5530 4350 50  0000 C CNN
+F 1 "1K" V 5450 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5380 4350 50  0001 C CNN
+F 3 "" H 5450 4350 50  0000 C CNN
+	1    5450 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 4350 5300 4350
+Wire Wire Line
+	5600 4350 5700 4350
+$EndSCHEMATC
