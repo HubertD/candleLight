@@ -85,7 +85,7 @@ $Sheet
 S 4700 4800 2400 850 
 U 56F568C1
 F0 "Connectors" 60
-F1 "con.sch" 60
+F1 "connectors.sch" 60
 F2 "CAN_L" B R 7100 5000 60 
 F3 "CAN_H" B R 7100 5100 60 
 F4 "USB_DM" B L 4700 5000 60 
