@@ -91,6 +91,21 @@ X 2 2 100 0 50 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011
+#
+DEF Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID 0 0 N N 1 F N
+F0 "FID" 0 150 50 H V C CNN
+F1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 0 0 100 0 1 0 N
+P 2 0 1 0  -150 0  150 0 N
+P 2 0 1 0  0 150  0 -150 N
+X ~ ~ 0 0 0 R 5 5 1 1 N
+ENDDRAW
+ENDDEF
+#
 # GND
 #
 DEF GND #PWR 0 0 Y Y 1 F P

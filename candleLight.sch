@@ -33,6 +33,7 @@ LIBS:can_transceivers
 LIBS:sub-d9
 LIBS:micro-usb-ab
 LIBS:con_swd
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:candleLight-cache
 EELAYER 25 0
 EELAYER END
@@ -162,4 +163,37 @@ Wire Wire Line
 	4150 3150 4150 5500
 Wire Wire Line
 	4150 5500 4700 5500
+$Comp
+L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID101
+U 1 1 56FC5CD2
+P 9900 950
+F 0 "FID101" H 9900 1100 50  0000 C CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 9900 800 50  0000 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9900 950 50  0001 C CNN
+F 3 "" H 9900 950 50  0000 C CNN
+	1    9900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID102
+U 1 1 56FC5DC9
+P 9900 1350
+F 0 "FID102" H 9900 1500 50  0000 C CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 9900 1200 50  0000 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9900 1350 50  0001 C CNN
+F 3 "" H 9900 1350 50  0000 C CNN
+	1    9900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID?
+U 1 1 56FC6D4E
+P 9900 1750
+F 0 "FID?" H 9900 1900 50  0000 C CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 9900 1600 50  0000 C CNN
+F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9900 1750 50  0001 C CNN
+F 3 "" H 9900 1750 50  0000 C CNN
+	1    9900 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

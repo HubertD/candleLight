@@ -1,4 +1,4 @@
-update=Do 31 Mär 2016 00:27:36 CEST
+update=Do 31 Mär 2016 00:33:47 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -73,3 +73,4 @@ LibName31=can_transceivers
 LibName32=sub-d9
 LibName33=micro-usb-ab
 LibName34=con_swd
+LibName35=contrib_symbols_dl1eic/SymbolsSimilarEN60617+oldDIN617-RevE8
