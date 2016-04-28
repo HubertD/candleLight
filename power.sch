@@ -155,17 +155,6 @@ F 3 "" H 5300 4150 50  0000 C CNN
 	1    5100 4150
 	-1   0    0    1   
 $EndComp
-$Comp
-L TEST_1P W303
-U 1 1 572267AA
-P 6150 3750
-F 0 "W303" H 6150 4020 50  0000 C CNN
-F 1 "TEST_1P" H 6150 3950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 6350 3750 50  0001 C CNN
-F 3 "" H 6350 3750 50  0000 C CNN
-	1    6150 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5650 3950 5650 4300
 Connection ~ 5100 4150
