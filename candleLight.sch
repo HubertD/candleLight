@@ -186,10 +186,10 @@ F 3 "" H 9900 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID?
+L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID103
 U 1 1 56FC6D4E
 P 9900 1750
-F 0 "FID?" H 9900 1900 50  0000 C CNN
+F 0 "FID103" H 9900 1900 50  0000 C CNN
 F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 9900 1600 50  0000 C CNN
 F 2 "Fiducials:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9900 1750 50  0001 C CNN
 F 3 "" H 9900 1750 50  0000 C CNN
