@@ -1,4 +1,4 @@
-update=Do 31 Mär 2016 00:33:47 CEST
+update=Fr 29 Apr 2016 12:58:03 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,16 +25,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=../../opt/kicad/kicad-library/library;../lib
@@ -74,3 +64,13 @@ LibName32=sub-d9
 LibName33=micro-usb-ab
 LibName34=con_swd
 LibName35=contrib_symbols_dl1eic/SymbolsSimilarEN60617+oldDIN617-RevE8
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
